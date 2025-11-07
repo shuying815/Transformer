@@ -1,0 +1,22 @@
+MODEL:
+  D_MODEL: 512
+  NUM_HEADS: 4
+  D_FF: 1024
+  ENCODER: 3
+  DECODER: 3
+  DROPOUT: 0.2
+TRAIN:
+  LR: 1e-5
+  NUM_EPOCHS: 5
+  LOSS: 'CrossEntropy'
+  SCHEDULER: True
+  SAVECKPT_PERIOD: 1
+  BATCH_SIZE: 128
+  SEED: 2
+DATASET:
+  NAME: 'iswlt2017'
+  BPTT: 128
+  PATH: './data'
+  EN_DE: True
+OUTPUT_DIR: './results/head4'
+RESUME_CKPT: ''
