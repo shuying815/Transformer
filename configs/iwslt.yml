@@ -1,6 +1,6 @@
 MODEL:
   D_MODEL: 512
-  NUM_HEADS: 4
+  NUM_HEADS: 8
   D_FF: 1024
   ENCODER: 3
   DECODER: 3
@@ -19,4 +19,5 @@ DATASET:
   PATH: './data'
   EN_DE: True
 OUTPUT_DIR: './results/head4'
+
 RESUME_CKPT: ''
