@@ -1,0 +1,21 @@
+MODEL:
+  D_MODEL: 512
+  NUM_HEADS: 4
+  D_FF: 1024
+  ENCODER: 4
+  DECODER: 0
+  DROPOUT: 0.1
+TRAIN:
+  LR: 1e-4
+  NUM_EPOCHS: 1
+  LOSS: 'CrossEntropy'
+  SCHEDULER: False
+  SAVECKPT_PERIOD: 1
+  BATCH_SIZE: 512
+  SEED: 2
+DATASET:
+  NAME: 'WikiText'
+  BPTT: 35
+  PATH: './data'
+OUTPUT_DIR: './results/wikitext'
+RESUME_CKPT: ''
