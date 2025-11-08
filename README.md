@@ -17,7 +17,7 @@ pip intsall -r requirements.txt
 Download the datasets: [WikiText-2](https://huggingface.co/datasets/mindchain/wikitext2)  for encoder-only transformer training,  [IWSLT2017](https://huggingface.co/datasets/mindchain/wikitext2)  for encoder-decoder transformer training.  And then unzip them to `your_dataset_dir`.
 
 ### Training
-We used a 24GB NVIDIA 3090 graphics card for model training.
+We used a 24GB NVIDIA 3090 GPU for model training.
 
 If you want to do encoder_only transformer training, you can run (or run train.py):
 
@@ -54,6 +54,7 @@ All results are stored in `results' directory.
 <img src="https://github.com/shuying815/Transformer/blob/main/results/模型规模实验结果.png" width="420px">
 <img src="https://github.com/shuying815/Transformer/blob/main/results/位置编码消融实验结果.png"width="420px">
 <img src="https://github.com/shuying815/Transformer/blob/main/results/位置编码消融模型语言生成效果.png" width="900px">
+
 
 
 
