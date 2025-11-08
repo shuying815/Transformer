@@ -18,7 +18,7 @@ Download the datasets: [WikiText-2](https://huggingface.co/datasets/mindchain/wi
 
 ### Training
 
-If you want to do encoder_only transformer training, you can run:
+If you want to do encoder_only transformer training, you can run (or run train.py):
 
 ``` 
 bash scripts/run.sh
@@ -40,14 +40,9 @@ For example, if you want to test transformer for machine translation mask:
 python test.py --config_file ./configs/iwslt.yml
 ```
 
-### Training models
+### Training Results
+All results are stored in `results' directory.
 
-| Datasets        | WikiText-2  | IWSLT2017 |
-| --------------- | ----------- | --------- |
-| Encoder-only    | 100%\|model | -         |
-| Encoder-Decoder | -           | 100%      |
-
-### Ablation experiment results
 
 
 
