@@ -42,13 +42,14 @@ python test.py --config_file ./configs/iwslt.yml
 
 ### Training Results
 All results are stored in `results' directory.
-<img src="https://github.com/shuying815/Transformer/blob/main/results/超参配置表.png" style="zoom:25%;" />
-<img src="https://github.com/shuying815/Transformer/blob/main/results/语言建模和机器翻译实验结果.png" style="zoom:25%;" />
+<img src="https://github.com/shuying815/Transformer/blob/main/results/超参配置表.png" width="210px">
+<img src="https://github.com/shuying815/Transformer/blob/main/results/语言建模和机器翻译实验结果.png" width="210px">
 <img src="https://github.com/shuying815/Transformer/blob/main/results/生成语言样例.png" style="zoom:45%;" />
 <img src="https://github.com/shuying815/Transformer/blob/main/results/注意力头数量对比实验结果.png" style="zoom:25%;" />
 <img src="https://github.com/shuying815/Transformer/blob/main/results/模型规模实验结果.png" style="zoom:25%;" />
 <img src="https://github.com/shuying815/Transformer/blob/main/results/位置编码消融实验结果.png" style="zoom:25%;" />
 <img src="https://github.com/shuying815/Transformer/blob/main/results/位置编码消融模型语言生成效果.png" style="zoom:50%;" />
+
 
 
 
